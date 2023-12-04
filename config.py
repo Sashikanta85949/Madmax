@@ -24,10 +24,10 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "SCAR X MUSIC")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹ѕᴄαꝛ ꭙ мυѕιᴄ˼")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1919516786").split())
+    map(int, getenv("OWNER_ID", "6627636245").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
